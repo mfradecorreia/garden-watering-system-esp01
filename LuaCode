@@ -2,4 +2,10 @@
 
 wifi.setmode(wifi.STATION)
 wifi.sta.config('SSID','password')
+print(wifi.sta.getip())
 
+-- GPIO 0 read sensor
+-- GPIO 2 relay activation
+
+gpio.mode(0,gpio.INT) 
+gpio.mode(2,gpio.OUT)
