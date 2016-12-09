@@ -9,3 +9,7 @@ print(wifi.sta.getip())
 
 gpio.mode(0,gpio.INT) 
 gpio.mode(2,gpio.OUT)
+
+digitalRead(0)
+
+gpio.write(2,High)
